@@ -12,5 +12,7 @@ export class AboutPage implements OnInit {
 
   ngOnInit() {
   }
-
+  goToContact() {
+    this.navCtrl.navigateForward('/contact');
+    }
 }

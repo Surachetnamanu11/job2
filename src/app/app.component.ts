@@ -12,9 +12,9 @@ export class AppComponent {
     // { title: 'Archived', url: '/folder/archived', icon: 'archive' },
     // { title: 'Trash', url: '/folder/trash', icon: 'trash' },
     // { title: 'Spam', url: '/folder/spam', icon: 'warning' },
-    { title: 'หน้าแรก', url: '/home', icon: 'person' },
+    { title: 'หน้าแรก', url: '/home', icon: 'home' },
     { title: 'ประวัติส่วนตัว', url: '/about', icon: 'person' },
+    // { title: 'ติดต่อ', url: '/contact', icon: 'mail' },
   ];
-  public labels = '';
   constructor() {}
 }
